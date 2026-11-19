@@ -10,13 +10,6 @@ Repositorio con los anexos en hoja de cálculo del proyecto de tesis: especifica
 | `tablas_FEA_por_potencia.xlsx` | Resultados del FEA en SOLIDWORKS Simulation por estación: von Mises, desplazamiento URES y reacciones para gravedad y cuatro casos de viento. | `800 W`, `3,7 kWp`, `7 kW`, `11 kW` |
 | `Protocolo_de_Pruebas.xlsx` | Protocolo de pruebas completo del sistema: firmware, sensores, software, PCB, hardware, integración, parte mecánica (M01–M20) y validación con usuario final. | `Firmware`, `Sensores`, `Software`, `PCB`, `Hardware`, `Integración`, `Mecánica`, `Validación con usuario final` |
 
-## Convenciones
-
-- **Unidades:** N para fuerzas y reacciones, MPa para von Mises, mm para desplazamientos, kg para masas.
-- **Separador decimal:** en algunas celdas de texto de las tablas FEA aparece coma (`−145,62`) y en otras punto (`−145.62`). Los valores numéricos reales deben tomarse siempre de la columna de valores, no del texto.
-- **Signos de reacción:** se reportan tal como salen del FEA. En los casos de 180° la reacción horizontal es positiva; en los de 0° es negativa.
-- **Columnas `Von Mises` y `Desplazamiento URES` (hojas FEA):** tienen `#VALUE!` como resultado de una fórmula auxiliar. No afectan los valores de las columnas `Valor máximo` y `Valor mínimo`, que son los que se usan.
-- **Estación de 7 kW:** su geometría tiene h/L = 1,196, fuera del intervalo de la figura B.6.5-15A de la NSR-10 (0,25 ≤ h/L ≤ 1,00). Sus resultados de viento son exploratorios.
 
 ## Cómo se relacionan los archivos
 
